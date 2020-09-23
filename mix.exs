@@ -35,9 +35,9 @@ defmodule OpentelemetryEtso.MixProject do
 
   defp deps do
     [
-      {:telemetry, "~> 0.4.0"},
-      {:opentelemetry_api, "~> 0.3.1"},
-      {:opentelemetry, "~> 0.4.0"},
+      {:telemetry, "~> 0.4"},
+      {:opentelemetry_api, "~> 0.4"},
+      {:opentelemetry, "~> 0.4"},
       {:ex_doc, "~> 0.21.0", only: [:dev], runtime: false},
       {:ecto, ">= 3.0.0", only: [:test]}
     ]
